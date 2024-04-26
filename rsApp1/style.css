@@ -1,0 +1,80 @@
+.mainIMG {
+  margin: 0 auto;
+  display: block;
+  width: 1280px;
+  height: 908px;
+  background-image: url("./img/start-screen-background.jpg");
+}
+
+#dogHuy {
+  position: relative;
+  width: 698px;
+  height: 728px;
+  background-image: url("./img/start-screen-puppy.png");
+  left: 500px;
+  bottom: 365px;
+}
+
+.headerMain {
+  background-color: white;
+}
+
+.mainIMG>header>.main_header>h1 {
+  display: inline-block;
+  color: #E1C155;
+}
+
+
+/* TODO 
+ Gaty ashagkda durr bir az yokoryk gotermeli*/
+.mainIMG>header>.main_header>.text_one {
+  color: white;
+}
+
+
+.mainIMG>header>.main_header>.text_two {
+  color: white;
+  padding-left: 475px;
+  display: inline-block;
+}
+
+.mainIMG>header>.main_header>.text_two_first {
+  color: white;
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.main_header {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.mainIMG>header>.main_header>p {
+  color: white;
+}
+
+.big_size_text {
+  padding-top: 100px;
+  font-size: 40px;
+  display: inline-block;
+  color: white;
+  padding-left: 100px;
+}
+
+.small_size_text {
+  font-size: 10px;
+  color: white;
+  padding-left: 100px;
+  display: inline-block;
+}
+
+.button {
+  background-color: #EEE4B2;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 10px 10px;
+  left: 150px;
+  top: 50px;
+  position: relative;
+
+}
